@@ -1,0 +1,108 @@
+.parking-item{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 20vh;
+    width: 20vh;
+    margin-top: 20px;
+    border: 2px solid rgb(32, 103, 26);
+    margin-right: 20px;
+}
+.heading{
+    color: #19751c;
+}
+.car-info{
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+    height: 10hv;
+    width: 100%;
+    border: 2px solid green;
+}
+.heading-space{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+ .heading-space-label{
+    font-size: larger;
+    font-weight: 600;
+    color: #4CAF50;
+ }
+.Add-vehical-button{
+    margin-top: 5vh;
+    height: 5vh;
+    width: 20vh;
+    margin-bottom: 5vh;
+    background-color: rgb(46, 126, 197);
+}
+.main{
+    margin-left: 10vh;
+}
+ 
+.parking-space-button {
+    height: 5vh;
+    width: 10vh;
+    /* padding: 10px 20px; */
+    border: none;
+    background-color: #4CAF50;
+    color: #fff;
+    font-size: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+  }
+  
+  .parking-space-button:hover {
+    background-color: #fff;
+    color: #4CAF50;
+    border: 2px solid #4CAF50;
+  }
+  .parked-car-box{
+    background-color: #9bf19e;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    height: 20vh;
+    width: 20vh;
+    
+  }
+  .parking-box-number{
+    color: #034a05;
+  }
+
+  .parking-drawing-space-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* margin-left: -12vh; */
+  }
+
+  input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    font-size: 16px;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #5D5D5D;
+  }
+  
+  input[type="submit"],
+  input[type="button"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover,
+  input[type="button"]:hover {
+    background-color: #3e8e41;
+  }
+  
